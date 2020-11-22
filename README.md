@@ -37,7 +37,7 @@ Now that all that's taken care of, there are only three more steps. First, open 
 1) Simply paste this line into the powershell - it builds the docker image on your computer:
 		docker build -t my-java-app .
 		
-2) Then you can copy this command in, buy you'll have to change <IPV4_address> to your IPV4 address 
+2) Then you can copy this command in, but you'll have to change <IPV4_address> to your IPV4 address 
 		set-variable -name DISPLAY -value <IPV4_address>:0.0
 		
 3) Now you can just copy this command in. It will launch docker and the application, and you should be free to engage with the program.
