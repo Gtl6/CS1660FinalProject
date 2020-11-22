@@ -1,0 +1,20 @@
+If you're looking for the code for this, it's located in the gcpNetwork folder
+I had to set it up to follow a maven project structure
+
+TO ACTUALLY RUN THE APP IN DOCKER:
+Reference website for using Xming:
+https://docs.microsoft.com/en-us/archive/blogs/jamiedalton/windows-10-docker-gui
+
+Add your IPV4 address to the x0.hosts file
+Make sure Docker is running
+Make sure Xming is running 
+
+You need to set up the IP Address like so:
+set-variable -name DISPLAY -value <IPV4_address>:0.0
+Replace the <IPV4_address> with your actual IPV4 address
+
+Then build the image with
+docker build -t my-java-app .
+
+Then to launch the image, run:
+docker run -it --privileged -e DISPLAY=$DISPLAY -v /tmp/.X11-unix:/tmp/.X11-unix my-java-app
