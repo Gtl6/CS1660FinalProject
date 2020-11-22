@@ -1,6 +1,8 @@
 # CloudComputingFinalProject
 
-Tour of the project:
+Tour of the project: https://pitt.box.com/s/whp39c1g5so7t1ge5ea7wrxmvx8qtu35
+
+Text version:
 I have three programs that execute on GCP:
 inverted-index (located in inverted-index-src)
 MR Search (located in the MRSearch folder)
