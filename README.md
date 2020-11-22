@@ -26,7 +26,7 @@ To run the app on Docker, there are a few things to make sure of first. I'm assu
 dependent code. I just can't guarantee because I don't have a Mac to test on.
 
 1) You're running Docker. 'docker --version' for me returns "Docker version 19.03.13, build 4484c46d9d"
-2) If you want to recompile the jar, you'll need Maven. 'mvn --version' for me returns "Apache Maven 3.6.3"
+2) If you want to recompile the jar, you'll need Maven. 'mvn --version' for me returns "Apache Maven 3.6.3" There's no need to though.
 3) You have Xming installed. I have the most recent Public Domain Release, which is 6.9.0.31
 4) You know your IPV4 address. You can find it by typing "ipconfig" into your command prompt.
 5) You have entered your IPV4 address into the x0.hosts file (as described in this page https://docs.microsoft.com/en-us/archive/blogs/jamiedalton/windows-10-docker-gui)
